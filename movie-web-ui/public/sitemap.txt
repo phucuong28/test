@@ -1,0 +1,3 @@
+http://localhost:3000/quoc-gia/han-quoc
+http://localhost:3000/quoc-gia/trung-quoc
+http://localhost:3000/phim-le
