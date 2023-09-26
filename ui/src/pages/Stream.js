@@ -91,12 +91,12 @@ const Stream = () => {
             <Helmet>
                 <title>{`${movie?.name} - Tập ${link?.name}`}</title>
                 <meta name="description" content={movie?.content} />
-                <link rel="canonical" href={`${process.env.REACT_APP_BASE_URL}/${slug1}/${slug2}`} />
+                <link rel="canonical" href={`${process.env.REACT_APP_BASE_URL}/phim/${slug1}/${slug2}`} />
 
                 <meta property="og:locale" content="vi_VN" />
                 <meta property="og:title" content={`${movie?.name} - Tập ${link?.name}`} />
                 <meta property="og:description" content={movie?.content} />
-                <meta property="og:url" content={`${process.env.REACT_APP_BASE_URL}/${slug1}/${slug2}`} />
+                <meta property="og:url" content={`${process.env.REACT_APP_BASE_URL}/phim/${slug1}/${slug2}`} />
                 <meta property="og:site_name" content={`${movie?.name} - Tập ${link?.name}`} />
                 <meta property="og:image" content={movie?.poster_url} />
                 <meta property="og:image:width" content="300" />

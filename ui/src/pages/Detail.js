@@ -88,12 +88,12 @@ const Detail = () => {
             <Helmet>
                 <title>{movie?.name}</title>
                 <meta name="description" content={movie?.content} />
-                <link rel="canonical" href={`${process.env.REACT_APP_BASE_URL}/${slug}`} />
+                <link rel="canonical" href={`${process.env.REACT_APP_BASE_URL}/phim/${slug}`} />
 
                 <meta property="og:locale" content="vi_VN" />
                 <meta property="og:title" content={movie?.name} />
                 <meta property="og:description" content={movie?.content} />
-                <meta property="og:url" content={`${process.env.REACT_APP_BASE_URL}/${slug}`} />
+                <meta property="og:url" content={`${process.env.REACT_APP_BASE_URL}/phim/${slug}`} />
                 <meta property="og:site_name" content={movie?.name} />
                 <meta property="og:image" content={movie?.poster_url} />
                 <meta property="og:image:width" content="300" />
